@@ -22,3 +22,15 @@ The decryption engine perfectly rewinds the clock by performing the exact invers
 
 Compile the source using gcc and youre good to go!
 gcc encryptor.c -o encryptor
+
+# Usage and Examples
+
+To Encrypt:
+./encryptor target.txt -o encrypted.txt -p password
+
+To Decrypt:
+./encryptor target.txt -o decrypted.txt -d
+
+Example:
+./encryptor file.txt -o output
+./encryptor encrypted.txt -d
